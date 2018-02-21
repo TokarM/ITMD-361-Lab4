@@ -30,6 +30,7 @@
       <label>Age: </label>
       <select name="age_field">
         <option>under 18</option>
+        <option>18-24</option>
         <option>25-34</option>
         <option>35-44</option>
         <option>45-54</option>
@@ -37,6 +38,39 @@
         <option>65 ond over</option>
       </select>
     </p>
+  </fieldset>
+<p><strong>My Availability</strong></p>
+  <fieldset>
+    <p>Days Available:</p>
+    <p>
+      <label><input type="checkbox" name="available_field[]" value="sunday">Sunday</label>
+    </P>
+    <p>
+      <label><input type="checkbox" name="available_field[]" value="monday">Monday</label>
+    </p>
+    <p>
+      <label><input type="checkbox" name="available_field[]" value="tuesday">Tuesday</label>
+    </p>
+    <p>
+      <label><input type="checkbox" name="available_field[]" value="wendnesday">Wendnesday</label>
+    </p>
+    <p>
+      <label><input type="checkbox" name="available_field[]" value="thurday">Thursday</label>
+    </p>
+    <p>
+      <label><input type="checkbox" name="available_field[]" value="friday">Friday</label>
+    </p>
+    <p>
+      <label><input type="checkbox" name="available_field[]" value="saturday">Saturday</label>
+    </p>
+    <p>
+      <label for="our_textarea">Any Comments?</label><br>
+      <textarea cols="30" rows="10" name="comments_field"></textarea>
+    </p>
+    <p>
+      <input type="hidden" name="hidden_field" value="mtokar">
+    </p>
+
   </fieldset>
 
 </body>
